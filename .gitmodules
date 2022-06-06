@@ -1,0 +1,12 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://code.il2.dso.mil/platform-one/products/gvsc/sec/dsdp/frontend.git
+[submodule "backend"]
+	path = backend
+	url = https://code.il2.dso.mil/platform-one/products/gvsc/sec/dsdp/backend
+[submodule "manifests"]
+	path = manifests
+	url = https://code.il2.dso.mil/platform-one/products/gvsc/sec/dsdp/dsdp-manifests
+[submodule "docs"]
+	path = docs
+	url = https://code.il2.dso.mil/platform-one/products/gvsc/sec/dsdp/docs
