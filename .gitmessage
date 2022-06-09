@@ -1,6 +1,6 @@
 
 # Remove any co-author you don't want to use
-Co-authored-by: anthony.butt
-Co-authored-by: clinton.harris
+Co-authored-by: anthony.butt <anthony.butt@cse-corp.com>
+Co-authored-by: clinton.harris <clint.harris@cse-corp.com>
 Co-authored-by: ethan.pellegrini
-Co-authored-by: millermj-cse
+Co-authored-by: millermj-cse <marc.miller@cse-corp.com>
