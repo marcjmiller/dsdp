@@ -23,7 +23,7 @@ be-dev-deps:
   ENV PYTHONIOENCODING=UTF-8
   ENV PYTHONDONTWRITEBYTECODE=1
   ENV PYTHONUNBUFFERED=1
-  ENV PYTHONPATH=/home/python
+  ENV PYTHONPATH=/home/python/app
   ENV PYTHONHASHSEED=random
   ENV PYTHONFAULTHANDLER=1
   COPY ./backend/pyproject.toml ./backend/poetry.lock ./
