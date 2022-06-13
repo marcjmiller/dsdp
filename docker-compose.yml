@@ -10,6 +10,8 @@ services:
       - ./frontend:/app
     depends_on:
       - api
+    profiles:
+      - dev
   api:
     image: backend:dev-build
     ports:
@@ -54,6 +56,7 @@ services:
       - backend-test
     entrypoint: >
       /bin/sh -c "
+      until curl -I http://minio:9000/minio/health/live; do echo 'waiting for minio...'; sleep 2; done;
       /usr/bin/mc alias set myminio http://minio:9000 minio minio123;
       /usr/bin/mc mb myminio/bucket;
       /usr/bin/mc policy set public myminio/bucket;

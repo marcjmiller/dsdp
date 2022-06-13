@@ -2,7 +2,7 @@
 
 function main {
   install_deps
-  docker compose up 
+  docker compose --profile dev up 
 }
 
 function install_deps {
