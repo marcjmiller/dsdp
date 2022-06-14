@@ -24,7 +24,7 @@ services:
       MINIO_HOST: minio
       MINIO_ACCESS_KEY: minio
       MINIO_SECRET_KEY: minio123
-      MINIO_BUCKET: bucket
+      MINIO_BUCKET_NAME: bucket
     volumes:
       - ./backend:/home/python/
   minio:
